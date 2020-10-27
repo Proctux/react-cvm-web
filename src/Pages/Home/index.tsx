@@ -1,5 +1,9 @@
 import React from 'react';
 
-const Home: React.FC = () => <h1>Hello Homw</h1>;
+import Menu from '../../components/Menu';
+
+const Home: React.FC = () => {
+  return <Menu />;
+};
 
 export default Home;
